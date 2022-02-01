@@ -7,6 +7,9 @@ namespace TicketingSystem
     {
         static string tickets = "tickets.cvs";
         private static string _pickedChoice;
+        
+        
+        // Allows selection for the user to choose from
         public static void Main(string[] args)
         {
             bool choice = true;
@@ -31,7 +34,7 @@ namespace TicketingSystem
         
         
         
-        
+        // Allows you to enter an option for Main to run
         private static void MainMenu()
         {
             Console.WriteLine("1) Read the data from the file.");
@@ -40,6 +43,7 @@ namespace TicketingSystem
             _pickedChoice = Console.ReadLine();
         }
 
+        // Reads from the tickets.csv document
         private static void Read()
         {
             if (File.Exists(tickets))
@@ -56,6 +60,7 @@ namespace TicketingSystem
             }
         }
 
+        // Prompts the user for entry data and then writes it to the tickets.csv document
         private static void Write()
         {
             Console.WriteLine("Ticket Number:");
