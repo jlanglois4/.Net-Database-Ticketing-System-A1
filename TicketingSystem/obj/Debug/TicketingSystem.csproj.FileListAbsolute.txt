@@ -1,0 +1,7 @@
+C:\Users\jo\Desktop\Module1C#\Mod2InClass\TicketingSystem\TicketingSystem\bin\Debug\TicketingSystem.exe
+C:\Users\jo\Desktop\Module1C#\Mod2InClass\TicketingSystem\TicketingSystem\bin\Debug\TicketingSystem.pdb
+C:\Users\jo\Desktop\Module1C#\Mod2InClass\TicketingSystem\TicketingSystem\obj\Debug\TicketingSystem.csprojAssemblyReference.cache
+C:\Users\jo\Desktop\Module1C#\Mod2InClass\TicketingSystem\TicketingSystem\obj\Debug\TicketingSystem.csproj.CoreCompileInputs.cache
+C:\Users\jo\Desktop\Module1C#\Mod2InClass\TicketingSystem\TicketingSystem\obj\Debug\TicketingSystem.exe
+C:\Users\jo\Desktop\Module1C#\Mod2InClass\TicketingSystem\TicketingSystem\obj\Debug\TicketingSystem.pdb
+C:\Users\jo\Desktop\Module1C#\Mod2InClass\TicketingSystem\TicketingSystem\bin\Debug\tickets.txt
