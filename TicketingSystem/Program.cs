@@ -5,7 +5,7 @@ namespace TicketingSystem
 {
     internal class Program
     {
-        static string tickets = "tickets.txt";
+        static string tickets = "tickets.cvs";
         private static string _pickedChoice;
         public static void Main(string[] args)
         {
@@ -99,7 +99,6 @@ namespace TicketingSystem
 
             StreamWriter sw = new StreamWriter(tickets,true);
             var ticketEntry = ticketNumber + "," + summary + status + priority + submitter + assigned + finalWatcher;
-            Console.WriteLine(ticketEntry);
             sw.WriteLine(ticketEntry);
             sw.Close();
         }

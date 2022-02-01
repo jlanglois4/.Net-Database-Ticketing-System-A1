@@ -53,7 +53,7 @@
         <None Remove="tickets.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="tickets.txt">
+        <EmbeddedResource Include="tickets.cvs">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </EmbeddedResource>
     </ItemGroup>
