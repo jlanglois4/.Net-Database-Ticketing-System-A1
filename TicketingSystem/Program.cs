@@ -58,6 +58,11 @@ namespace TicketingSystem
                 } 
                sr.Close();
             }
+            
+            // added to make viewing the console easier
+            Console.WriteLine("");
+            Console.WriteLine("Enter anything to continue.");
+            Console.ReadLine();
         }
 
         // Prompts the user for entry data and then writes it to the tickets.csv document
